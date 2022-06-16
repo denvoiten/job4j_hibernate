@@ -29,7 +29,7 @@ public class HbmRun {
             }
 
             System.out.println(session.createQuery("from Candidate s where s.id = 3").uniqueResult());
-            System.out.println(session.createQuery("from Candidate s where s.name = 'Alex'").uniqueResult());
+            System.out.println(session.createQuery("from Candidate s where s.name = 'Alex'").getResultList());
 
             session.createQuery("update Candidate  s set s.experience = :newExp, s.salary = :newSalary where s.id = :fId")
                     .setParameter("newExp", 2)
