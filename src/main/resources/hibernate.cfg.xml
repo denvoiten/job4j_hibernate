@@ -22,5 +22,7 @@
         <mapping class="ru.job4j.many.User"/>
         <mapping class="ru.job4j.toone.RoleToOne"/>
         <mapping class="ru.job4j.toone.UserToOne"/>
+        <mapping class="ru.job4j.model.CarModel"/>
+        <mapping class="ru.job4j.model.CarBrand"/>
     </session-factory>
 </hibernate-configuration>
