@@ -15,3 +15,13 @@ create table j_user (
     name varchar(2000),
     role_id int not null references j_role(id)
 );
+
+create table if not exists car_model(
+    id serial primary key,
+    name varchar
+);
+
+create table if not exists brand(
+    id serial primary key,
+    name varchar
+);
