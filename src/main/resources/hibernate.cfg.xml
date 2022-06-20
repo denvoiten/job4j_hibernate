@@ -22,11 +22,11 @@
         <mapping class="ru.job4j.many.User"/>
         <mapping class="ru.job4j.toone.RoleToOne"/>
         <mapping class="ru.job4j.toone.UserToOne"/>
-        <mapping class="ru.job4j.model.CarModel"/>
-        <mapping class="ru.job4j.model.CarBrand"/>
         <mapping class="ru.job4j.manytomany.Person"/>
         <mapping class="ru.job4j.manytomany.Address"/>
         <mapping class="ru.job4j.books.Author"/>
         <mapping class="ru.job4j.books.Book"/>
+        <mapping class="ru.job4j.lazy.CarModel"/>
+        <mapping class="ru.job4j.lazy.CarBrand"/>
     </session-factory>
 </hibernate-configuration>
