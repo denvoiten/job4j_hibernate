@@ -24,5 +24,9 @@
         <mapping class="ru.job4j.toone.UserToOne"/>
         <mapping class="ru.job4j.model.CarModel"/>
         <mapping class="ru.job4j.model.CarBrand"/>
+        <mapping class="ru.job4j.manytomany.Person"/>
+        <mapping class="ru.job4j.manytomany.Address"/>
+        <mapping class="ru.job4j.books.Author"/>
+        <mapping class="ru.job4j.books.Book"/>
     </session-factory>
 </hibernate-configuration>
