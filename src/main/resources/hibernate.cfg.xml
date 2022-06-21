@@ -17,16 +17,8 @@
         <property name="format_sql">true</property>
         <property name="use_sql_comments">true</property>
 
-        <mapping class="ru.job4j.Candidate"/>
-        <mapping class="ru.job4j.many.Role"/>
-        <mapping class="ru.job4j.many.User"/>
-        <mapping class="ru.job4j.toone.RoleToOne"/>
-        <mapping class="ru.job4j.toone.UserToOne"/>
-        <mapping class="ru.job4j.manytomany.Person"/>
-        <mapping class="ru.job4j.manytomany.Address"/>
-        <mapping class="ru.job4j.books.Author"/>
-        <mapping class="ru.job4j.books.Book"/>
-        <mapping class="ru.job4j.lazy.CarModel"/>
-        <mapping class="ru.job4j.lazy.CarBrand"/>
+        <mapping class="ru.job4j.vacancy.Vacancy"/>
+        <mapping class="ru.job4j.vacancy.VacancyStore"/>
+        <mapping class="ru.job4j.vacancy.Candidate"/>
     </session-factory>
 </hibernate-configuration>
