@@ -25,3 +25,11 @@ create table if not exists car_brand(
     id serial primary key,
     name varchar
 );
+
+CREATE TABLE orders (
+    id serial,
+    name VARCHAR(50),
+    description VARCHAR(50),
+    created timestamp,
+    PRIMARY KEY (id)
+);
